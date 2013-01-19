@@ -185,7 +185,7 @@ int main(int argc, char** argv)
     return 1;
   }
 
-  std::cout << mem_string() << ' ' << cpu_string( cpu_usage_delay, graph_lines ) << ' ' << load_string();
+  std::cout << mem_string() << ' ' << cpu_string( cpu_usage_delay, graph_lines );
 
   return 0;
 }
